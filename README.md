@@ -7,18 +7,18 @@
 
 ##### codes that I've used 
 
-> ng g c login --spec=false --is
-> ng g c pages/dashboard --spec=false --is
-> ng g c pages/progress --spec=false --is
-> ng g c pages/graficas1 --spec=false --is
-> ng g c shared/pagenotfound --spec=false --is
-> ng g c shared/header --spec=false --is
-> ng g c shared/sidebar --spec=false --is
-> ng g c shared/modal --spec=false --is
-> ng g c shared/modalmessage --spec=false --is
-> ng g c shared/breadcrums --spec=false --is
-> ng g s services/shared --spec=false --is
-> ng g s services/sidebar --spec=false --is 
+* ng g c login --spec=false --is
+* ng g c pages/dashboard --spec=false --is
+* ng g c pages/progress --spec=false --is
+* ng g c pages/graficas1 --spec=false --is
+* ng g c shared/pagenotfound --spec=false --is
+* ng g c shared/header --spec=false --is
+* ng g c shared/sidebar --spec=false --is
+* ng g c shared/modal --spec=false --is
+* ng g c shared/modalmessage --spec=false --is
+* ng g c shared/breadcrums --spec=false --is
+* ng g s services/shared --spec=false --is
+* ng g s services/sidebar --spec=false --is 
 
 ## after create all compotents and services
 
@@ -29,7 +29,8 @@
 
 * ng g c pages/pages --flat -is --spec=false | flat: not creating a new folder
 * all app.compotent.html content cut and past into pages.component.html
-    * app.componet.html had every components such as progress, dashboard but It's dificult to implement in the same page (app.component.html) the LOGIN for this reason we've lets create a new component (pages.component.html)
+    * app.componet.html had every components such as progress, dashboard but It's dificult to implement in the same page (app.component.html) the LOGIN for this reason we've let's create a new component (pages.component.html)
 
 ## LIBS 
 * animate.css  let's have more information about animate 
+* shearch animate.css and change 1s to 0.3s 

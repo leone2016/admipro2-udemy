@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './login/register.component';
+import { PagesModule } from './pages/pages.modules';
+import { APP_ROUTES } from './app.routes';
+/*
 import { PagenotfoundComponent } from './shared/pagenotfound/pagenotfound.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ProgressComponent } from './pages/progress/progress.component';
@@ -12,29 +16,29 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { ModalComponent } from './shared/modal/modal.component';
 import { ModalmessageComponent } from './shared/modalmessage/modalmessage.component';
 import { BreadcrumsComponent } from './shared/breadcrums/breadcrums.component';
-import { APP_ROUTES } from './app.routes';
 import { PagesComponent } from './pages/pages.component';
-import { RegisterComponent } from './login/register.component';
+*/
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    PagenotfoundComponent,
-    DashboardComponent,
-    ProgressComponent,
-    Graficas1Component,
-    HeaderComponent,
-    SidebarComponent,
-    ModalComponent,
-    ModalmessageComponent,
-    BreadcrumsComponent,
-    PagesComponent,
     RegisterComponent
+    //PagenotfoundComponent,
+   // DashboardComponent,
+    //ProgressComponent,
+    //Graficas1Component,
+    //HeaderComponent,
+    //SidebarComponent,
+    //ModalComponent,
+    //ModalmessageComponent,
+    //BreadcrumsComponent,
+    //PagesComponent,
   ],
   imports: [
     BrowserModule,
-    APP_ROUTES
+    APP_ROUTES,
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
