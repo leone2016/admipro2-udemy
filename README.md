@@ -1,27 +1,35 @@
-# Adminpro
+## hello, this a udemy's course whern I've practice angular advanced 
+##### important to remaind 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
+* ng g c --help   this is important if You don't remenber, what is come after? 
+* ng serve -o --port  Deploid the app and added a different port
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##### codes that I've used 
 
-## Code scaffolding
+> ng g c login --spec=false --is
+> ng g c pages/dashboard --spec=false --is
+> ng g c pages/progress --spec=false --is
+> ng g c pages/graficas1 --spec=false --is
+> ng g c shared/pagenotfound --spec=false --is
+> ng g c shared/header --spec=false --is
+> ng g c shared/sidebar --spec=false --is
+> ng g c shared/modal --spec=false --is
+> ng g c shared/modalmessage --spec=false --is
+> ng g c shared/breadcrums --spec=false --is
+> ng g s services/shared --spec=false --is
+> ng g s services/sidebar --spec=false --is 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## after create all compotents and services
 
-## Build
+* create a app/app.routes.ts
+* import app.routes.ts into app/app.module.ts
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## how to implement login page 
 
-## Running unit tests
+* ng g c pages/pages --flat -is --spec=false | flat: not creating a new folder
+* all app.compotent.html content cut and past into pages.component.html
+    * app.componet.html had every components such as progress, dashboard but It's dificult to implement in the same page (app.component.html) the LOGIN for this reason we've lets create a new component (pages.component.html)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## LIBS 
+* animate.css  let's have more information about animate 
