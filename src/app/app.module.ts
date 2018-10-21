@@ -6,6 +6,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 import { PagesModule } from './pages/pages.modules';
 import { APP_ROUTES } from './app.routes';
+import { FormsModule } from '@angular/forms';
+
 /*
 import { PagenotfoundComponent } from './shared/pagenotfound/pagenotfound.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
@@ -24,6 +26,7 @@ import { PagesComponent } from './pages/pages.component';
     AppComponent,
     LoginComponent,
     RegisterComponent
+
     //PagenotfoundComponent,
    // DashboardComponent,
     //ProgressComponent,
@@ -38,7 +41,8 @@ import { PagesComponent } from './pages/pages.component';
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

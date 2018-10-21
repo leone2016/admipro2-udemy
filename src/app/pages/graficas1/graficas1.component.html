@@ -1,3 +1,12 @@
-<p>
-  graficas1 works!
-</p>
+<div class="row">
+  <div class="col-6"  *ngFor="let grafico of converterObjectToArray(graficos) ">
+    <div class="card">
+      <div class="card-body">
+        <h4>{{grafico.leyenda}}</h4>
+        <app-grafica-dona [chartLabels]="grafico.labels"
+                          [chartData]="grafico.data"
+                          [chartType]="grafico.type"></app-grafica-dona>
+      </div>
+    </div>
+  </div>
+</div>

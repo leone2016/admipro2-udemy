@@ -20,7 +20,7 @@
 * ng g s services/shared --spec=false --is
 * ng g s services/sidebar --spec=false --is 
 
-## after create all compotents and services
+## After create all compotents and services
 
 * create a app/app.routes.ts
 * import app.routes.ts into app/app.module.ts
@@ -34,3 +34,8 @@
 ## LIBS 
 * animate.css  let's have more information about animate 
 * shearch animate.css and change 1s to 0.3s 
+## Tslint.json
+* normally this (val:number = 50;) is a mistake for tslint, for resolve to put on no-inferrable-types = false
+## install ng-chart 
+* npm install ng2-charts --save
+* npm install chart.js --save
