@@ -7,6 +7,11 @@ import { RegisterComponent } from './login/register.component';
 import { PagesModule } from './pages/pages.modules';
 import { APP_ROUTES } from './app.routes';
 import { FormsModule } from '@angular/forms';
+import {ServiceModule} from './services/service.module';
+import {CommonModule} from '@angular/common';
+
+//import {SettingsService} from './services/service.index';
+
 
 /*
 import { PagenotfoundComponent } from './shared/pagenotfound/pagenotfound.component';
@@ -39,10 +44,13 @@ import { PagesComponent } from './pages/pages.component';
     //PagesComponent,
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

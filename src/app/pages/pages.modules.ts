@@ -11,6 +11,7 @@ import {ChartsModule} from 'ng2-charts';
 import {BrowserModule} from '@angular/platform-browser';
 import {RegisterComponent} from '../login/register.component';
 import {GraficaDonaComponent} from '../components/grafica-dona/grafica-dona.component';
+import { AccountSetingsComponent } from './account-setings/account-setings.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +20,8 @@ import {GraficaDonaComponent} from '../components/grafica-dona/grafica-dona.comp
         Graficas1Component,
         PagesComponent,
         IncrementadorComponent,
-      GraficaDonaComponent
+      GraficaDonaComponent,
+      AccountSetingsComponent
 
     ],
     exports: [
