@@ -1,4 +1,4 @@
-## hello, this a udemy's course whern I've practice angular advanced 
+## hello, this a udemy's course when I've practice angular advanced 
 ##### important to remaind 
 
 * ng g c --help   this is important if You don't remenber, what is come after? 
